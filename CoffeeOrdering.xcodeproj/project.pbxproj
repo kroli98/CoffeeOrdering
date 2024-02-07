@@ -11,6 +11,8 @@
 		E83848C12B7394C60057D25F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83848C02B7394C60057D25F /* ContentView.swift */; };
 		E83848C32B7394C80057D25F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E83848C22B7394C80057D25F /* Assets.xcassets */; };
 		E83848C62B7394C80057D25F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E83848C52B7394C80057D25F /* Preview Assets.xcassets */; };
+		E83848CE2B7395330057D25F /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83848CD2B7395330057D25F /* Coffee.swift */; };
+		E88680242B74294C008979D2 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88680232B74294C008979D2 /* Order.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		E83848C02B7394C60057D25F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E83848C22B7394C80057D25F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E83848C52B7394C80057D25F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E83848CD2B7395330057D25F /* Coffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee.swift; sourceTree = "<group>"; };
+		E88680232B74294C008979D2 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,7 @@
 		E83848BD2B7394C60057D25F /* CoffeeOrdering */ = {
 			isa = PBXGroup;
 			children = (
+				E83848CC2B7395190057D25F /* Models */,
 				E83848BE2B7394C60057D25F /* CoffeeOrderingApp.swift */,
 				E83848C02B7394C60057D25F /* ContentView.swift */,
 				E83848C22B7394C80057D25F /* Assets.xcassets */,
@@ -65,6 +70,15 @@
 				E83848C52B7394C80057D25F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E83848CC2B7395190057D25F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E83848CD2B7395330057D25F /* Coffee.swift */,
+				E88680232B74294C008979D2 /* Order.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +153,8 @@
 			files = (
 				E83848C12B7394C60057D25F /* ContentView.swift in Sources */,
 				E83848BF2B7394C60057D25F /* CoffeeOrderingApp.swift in Sources */,
+				E88680242B74294C008979D2 /* Order.swift in Sources */,
+				E83848CE2B7395330057D25F /* Coffee.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
