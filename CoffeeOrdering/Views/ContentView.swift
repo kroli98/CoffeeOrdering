@@ -8,16 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @ObservedObject private var orderListVM = OrderListViewModel()
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        
+        NavigationView{
+            
+            OrderListView(orders: self.orderListVM.orders)
         }
-        .padding()
+       
+      
+       
     }
+    
+        
+       
 }
+
 
 #Preview {
     ContentView()

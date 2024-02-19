@@ -7,8 +7,7 @@
 
 import Foundation
 
-struct Coffee: Identifiable{
-    var id = UUID()
+struct Coffee{
     let name: String
     let imageURL: String
     let price: Double
