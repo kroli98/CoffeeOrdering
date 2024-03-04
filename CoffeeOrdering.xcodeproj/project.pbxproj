@@ -16,6 +16,7 @@
 		E83848CE2B7395330057D25F /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83848CD2B7395330057D25F /* Coffee.swift */; };
 		E87E70542B83BBFF0007F914 /* AddCoffeeOrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87E70532B83BBFF0007F914 /* AddCoffeeOrderViewModel.swift */; };
 		E87E70562B83BF170007F914 /* CoffeeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87E70552B83BF170007F914 /* CoffeeViewModel.swift */; };
+		E87E70582B83EBCE0007F914 /* AddCoffeeOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87E70572B83EBCE0007F914 /* AddCoffeeOrderView.swift */; };
 		E88680242B74294C008979D2 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88680232B74294C008979D2 /* Order.swift */; };
 		E88680272B742B4A008979D2 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88680262B742B4A008979D2 /* WebService.swift */; };
 		E886802B2B742F3E008979D2 /* OrderListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E886802A2B742F3E008979D2 /* OrderListViewModel.swift */; };
@@ -32,6 +33,7 @@
 		E83848CD2B7395330057D25F /* Coffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee.swift; sourceTree = "<group>"; };
 		E87E70532B83BBFF0007F914 /* AddCoffeeOrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoffeeOrderViewModel.swift; sourceTree = "<group>"; };
 		E87E70552B83BF170007F914 /* CoffeeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeViewModel.swift; sourceTree = "<group>"; };
+		E87E70572B83EBCE0007F914 /* AddCoffeeOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoffeeOrderView.swift; sourceTree = "<group>"; };
 		E88680232B74294C008979D2 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		E88680262B742B4A008979D2 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		E88680282B742E0D008979D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 			children = (
 				E83848C02B7394C60057D25F /* ContentView.swift */,
 				E80275F42B8143CC00859D70 /* OrderListView.swift */,
+				E87E70572B83EBCE0007F914 /* AddCoffeeOrderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E83848C12B7394C60057D25F /* ContentView.swift in Sources */,
+				E87E70582B83EBCE0007F914 /* AddCoffeeOrderView.swift in Sources */,
 				E83848BF2B7394C60057D25F /* CoffeeOrderingApp.swift in Sources */,
 				E87E70562B83BF170007F914 /* CoffeeViewModel.swift in Sources */,
 				E88680242B74294C008979D2 /* Order.swift in Sources */,
