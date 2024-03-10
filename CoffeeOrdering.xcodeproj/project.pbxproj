@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		E80275F52B8143CC00859D70 /* OrderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80275F42B8143CC00859D70 /* OrderListView.swift */; };
 		E80275F72B82A95100859D70 /* CreateOrderResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80275F62B82A95100859D70 /* CreateOrderResponse.swift */; };
+		E833B3A72B99BF71003D235D /* OrderTotalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E833B3A62B99BF71003D235D /* OrderTotalView.swift */; };
 		E83848BF2B7394C60057D25F /* CoffeeOrderingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83848BE2B7394C60057D25F /* CoffeeOrderingApp.swift */; };
 		E83848C12B7394C60057D25F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83848C02B7394C60057D25F /* ContentView.swift */; };
 		E83848C32B7394C80057D25F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E83848C22B7394C80057D25F /* Assets.xcassets */; };
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		E80275F42B8143CC00859D70 /* OrderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListView.swift; sourceTree = "<group>"; };
 		E80275F62B82A95100859D70 /* CreateOrderResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateOrderResponse.swift; sourceTree = "<group>"; };
+		E833B3A62B99BF71003D235D /* OrderTotalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTotalView.swift; sourceTree = "<group>"; };
 		E83848BB2B7394C60057D25F /* CoffeeOrdering.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeOrdering.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E83848BE2B7394C60057D25F /* CoffeeOrderingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeOrderingApp.swift; sourceTree = "<group>"; };
 		E83848C02B7394C60057D25F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 				E83848C02B7394C60057D25F /* ContentView.swift */,
 				E80275F42B8143CC00859D70 /* OrderListView.swift */,
 				E87E70572B83EBCE0007F914 /* AddCoffeeOrderView.swift */,
+				E833B3A62B99BF71003D235D /* OrderTotalView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 				E886802B2B742F3E008979D2 /* OrderListViewModel.swift in Sources */,
 				E88680272B742B4A008979D2 /* WebService.swift in Sources */,
 				E87E70542B83BBFF0007F914 /* AddCoffeeOrderViewModel.swift in Sources */,
+				E833B3A72B99BF71003D235D /* OrderTotalView.swift in Sources */,
 				E83848CE2B7395330057D25F /* Coffee.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -10,6 +10,7 @@ import SwiftUI
 struct AddCoffeeOrderView: View {
     
     @ObservedObject private var addCoffeeOrderVM = AddCoffeeOrderViewModel()
+    @Binding var isPresented: Bool
     var body: some View {
         
         NavigationView{
@@ -29,7 +30,7 @@ struct AddCoffeeOrderView: View {
                             
                         }
                     }
-                    Section(header: Text("Select Coffee").font(.body), footer: Text("Total")){
+                    Section(header: Text("Select Coffee").font(.body), footer: OrderTotalView(total: self.addCoffeeOrderVM.total)){
                         
                         Picker("", selection: self.$addCoffeeOrderVM.size)
                         {
@@ -44,7 +45,7 @@ struct AddCoffeeOrderView: View {
                         Spacer()
                         
                         Button("Place order"){
-                            
+                            self.addCoffeeOrderVM.placeOrder()
                         }
                         .frame(width: 200)
                         .frame(height: 50)
@@ -70,7 +71,7 @@ struct AddCoffeeOrderView: View {
 }
 
 #Preview {
-    AddCoffeeOrderView()
+    AddCoffeeOrderView(isPresented: .constant(false))
 }
 
 struct CoffeeCellView: View {
