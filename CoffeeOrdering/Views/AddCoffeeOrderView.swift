@@ -30,7 +30,7 @@ struct AddCoffeeOrderView: View {
                             
                         }
                     }
-                    Section(header: Text("Select Coffee").font(.body), footer: OrderTotalView(total: self.addCoffeeOrderVM.total)){
+                    Section(header: Text("Select Size").font(.body)){
                         
                         Picker("", selection: self.$addCoffeeOrderVM.size)
                         {
@@ -40,26 +40,35 @@ struct AddCoffeeOrderView: View {
                         }
                         .pickerStyle(.segmented)
                         
-                    }
-                    HStack{
-                        Spacer()
+                        OrderTotalView(total: self.addCoffeeOrderVM.total)
                         
-                        Button("Place order"){
-                            self.addCoffeeOrderVM.placeOrder()
+                        HStack{
+                            Spacer()
+                            
+                            Button("Place order"){
+                                self.addCoffeeOrderVM.placeOrder()
+                                isPresented = false
+                            }
+                            .frame(width: 200)
+                            .frame(height: 50)
+                            .background(.green)
+                            .foregroundColor(.white)
+                            .clipShape(RoundedRectangle(cornerRadius: 25.0))
+                            .buttonStyle(.plain)
+                            
+                            Spacer()
                         }
-                        .frame(width: 200)
-                        .frame(height: 50)
-                        .background(.green)
-                        .foregroundColor(.white)
-                        .clipShape(RoundedRectangle(cornerRadius: 25.0))
-                        .buttonStyle(.plain)
                         
-                        Spacer()
                     }
+                    .listRowBackground(Color(.secondarySystemBackground))
+                    .listRowSeparator(.hidden)
+                  
+                  
                     
                     
                     
                 }
+                
                 
             }
             .navigationTitle("Add Order")
